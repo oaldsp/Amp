@@ -1,0 +1,23 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\otavi\OneDrive\Desktop\Amplificadores\lab\ex1c.asc
+Start Time: Mon Oct 21 20:20:09 2024
+solver = Normal
+Maximum thread count: 2
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u2:1      d:u2:2
+Model:    u2:x        u2:x
+Id:     -2.42e-11   -5.88e-12
+Vd:     -2.41e+01   -5.87e+00
+Req:     1.00e-12    1.00e-12
+CAP:     0.00e+00    0.00e+00
+
+
+
+
+Total elapsed time: 0.079 seconds.
+

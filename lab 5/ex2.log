@@ -1,0 +1,50 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\otavi\OneDrive\Desktop\Amplificadores\lab\ex2.asc
+Start Time: Mon Oct 21 19:42:00 2024
+r7: both pins shorted together -- ignoring.
+solver = Normal
+Maximum thread count: 2
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u1:1      d:u1:2      d:u2:1      d:u2:2      d:u3:1
+Model:    u1:x        u1:x        u2:x        u2:x        u3:x
+Id:     -1.20e-10   -8.02e-11   -1.20e-10   -8.02e-11   -8.02e-11
+Vd:     -1.20e+02   -8.01e+01   -1.20e+02   -8.01e+01   -8.01e+01
+Req:     1.00e-12    1.00e-12    1.00e-12    1.00e-12    1.00e-12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u3:2
+Model:    u3:x
+Id:     -1.20e-10
+Vd:     -1.20e+02
+Req:     1.00e-12
+CAP:     0.00e+00
+
+
+
+
+Total elapsed time: 0.156 seconds.
+
